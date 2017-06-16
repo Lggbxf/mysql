@@ -3,6 +3,11 @@
 安装linux
 >熟悉一些常用的基本命令
 1. 文件的创建、删除、复制、重命名、移动:touch  file;cp file file1;cp file  /home/linux/file1;mv file file2;mv file  /home/linux/
-2. 列出文件列表
-3. 查看文件内容   
->目录的创建、删除、复制、重命名、移动
+2. 列出文件列表:ls -al  .
+3. 查看文件内容:cat  file
+4. 目录的创建、删除、复制、重命名、移动:mkdir dir;cp dir   dir1  -a;cp dir   /home/linux/dir2  -a;mv dir  dir2;;mv dir  /home/linux/;rm  dir  -rf
+5. 列出目录列表:ls -d  dir
+6. 目录中查找文件:find  ./dir  -name  "filename"
+7. 使用gzip和gunzip对文件进行压缩和解压缩:gzip  filename;gunzip filename
+8. 使用bzip2和bunzip2对文件进行压缩和解压缩:bzip2  filename;bunzip2  filename
+9. 使用tar对文件和目录进行压缩和解压缩:tar czvf  file.tar.gz dir;tar cjvf  file.tar.bz2 dir;tar cJvf  file.tar.xz  dir;tar xvf  file.tar.gz;tar xvf  file.tar.xz

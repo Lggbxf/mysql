@@ -11,3 +11,4 @@
 7. 使用gzip和gunzip对文件进行压缩和解压缩:gzip  filename;gunzip filename
 8. 使用bzip2和bunzip2对文件进行压缩和解压缩:bzip2  filename;bunzip2  filename
 9. 使用tar对文件和目录进行压缩和解压缩:tar czvf  file.tar.gz dir;tar cjvf  file.tar.bz2 dir;tar cJvf  file.tar.xz  dir;tar xvf  file.tar.gz;tar xvf  file.tar.xz
+## 20170613

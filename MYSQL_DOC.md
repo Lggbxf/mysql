@@ -1,4 +1,5 @@
 # 我的数据库日记
+![hj](C:\Users\Public\Pictures\Sample Pictures\沙漠.jpg)
 ## 20170612
 安装linux
 >熟悉一些常用的基本命令

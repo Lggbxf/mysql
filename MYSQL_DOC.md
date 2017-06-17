@@ -1,16 +1,3 @@
-## 20170614
->安装git并会基本的使用
-1. 创建版本库
-- 第一步, 先要创建一个目录, 这个目录就是用来存放仓库的:mkdir html;cd html
-- 第二步, 使用git init命令, 将当前目录创建成git仓库:git init
-- 增加文件:touch README
-- 编辑这个文件, 写一点东西在里面:vim README
-- 先用查看当前状态的命令, 查看一下现在目录下文件的状态:git status
--把文件加到仓库中去, 只有加到仓库中了, 才可能看一下文件的变化:git add README
--现在使用查看状态的命令, 看一下是目录下文件的状态:git status
--提交:git commit
-- 配置用户信息:git config --global user.name;git config --global user.email;git config --global core.editor vim
-- 查看提交信息:git log
 ## 20170615
 >git远程仓库
 1. 添加远程仓库：git remote add origin https://github.com/wangleihd/h5class.git
